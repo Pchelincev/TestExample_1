@@ -5,7 +5,7 @@ import java.util.*;
 public class ResultStructureExecuter {
 
 
-    private final Map<String, List<String>> resultStructure = new TreeMap<>();
+    private final Map<String, List<String>> resultStructure = new TreeMap<String, List<String>>();
     private String sourceString;
 
     /**
